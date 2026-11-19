@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/pynexus.iml" filepath="$PROJECT_DIR$/.idea/pynexus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/python-mastery-suite.iml" filepath="$PROJECT_DIR$/.idea/python-mastery-suite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/python-mastery-suite@1.iml" filepath="$PROJECT_DIR$/.idea/python-mastery-suite@1.iml" />
     </modules>
   </component>
 </project>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.system.id="pyproject.toml" type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/28_virtual_envs_and_packaging" />
+    <content url="file://$MODULE_DIR$/Phase 7 - Environments &amp; Packaging/virtualEnvs_&amp;_packaging" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
