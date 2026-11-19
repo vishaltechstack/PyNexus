@@ -1,0 +1,9 @@
+# ==============================================================================
+# FILE: requirements.txt
+# TOPIC: Explicit Third-Party Package Dependencies & Version Pinning
+# ==============================================================================
+# '==' pins an exact version; '>=' sets a minimum compatible version.
+
+pytest==8.3.3
+requests==2.32.3
+python-dotenv>=1.0.1

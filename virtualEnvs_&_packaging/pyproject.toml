@@ -1,0 +1,33 @@
+# ==============================================================================
+# FILE: pyproject.toml
+# TOPIC: Modern Standard Configuration for Packaging, Builds, Pytest, and Linters
+# ==============================================================================
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-mastery-suite"
+version = "1.0.0"
+description = "Modular Python curriculum and automation utilities"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    { name = "Vishal Sharma" }
+]
+dependencies = [
+    "requests>=2.32.0",
+]
+
+# Optional dependency groups (install via: pip install -e ".[dev]")
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.0",
+    "ruff>=0.7.0",
+]
+
+# Configure Pytest behavior directly inside pyproject.toml
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
